@@ -1,0 +1,217 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\data-structure\\Linear_List\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E719BEA1-E4A8-4FAE-A408-8EED5F922367}|Project1.vcxproj|D:\\data-structure\\Linear_List\\link-deque.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E719BEA1-E4A8-4FAE-A408-8EED5F922367}|Project1.vcxproj|solutionrelative:link-deque.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E719BEA1-E4A8-4FAE-A408-8EED5F922367}|Project1.vcxproj|D:\\data-structure\\Linear_List\\double-linked-list.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E719BEA1-E4A8-4FAE-A408-8EED5F922367}|Project1.vcxproj|solutionrelative:double-linked-list.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E719BEA1-E4A8-4FAE-A408-8EED5F922367}|Project1.vcxproj|D:\\data-structure\\Linear_List\\linked-list.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E719BEA1-E4A8-4FAE-A408-8EED5F922367}|Project1.vcxproj|solutionrelative:linked-list.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E719BEA1-E4A8-4FAE-A408-8EED5F922367}|Project1.vcxproj|D:\\data-structure\\Linear_List\\link-queue.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E719BEA1-E4A8-4FAE-A408-8EED5F922367}|Project1.vcxproj|solutionrelative:link-queue.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E719BEA1-E4A8-4FAE-A408-8EED5F922367}|Project1.vcxproj|D:\\data-structure\\Linear_List\\circular-deque.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E719BEA1-E4A8-4FAE-A408-8EED5F922367}|Project1.vcxproj|solutionrelative:circular-deque.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E719BEA1-E4A8-4FAE-A408-8EED5F922367}|Project1.vcxproj|D:\\data-structure\\Linear_List\\queue.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E719BEA1-E4A8-4FAE-A408-8EED5F922367}|Project1.vcxproj|solutionrelative:queue.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E719BEA1-E4A8-4FAE-A408-8EED5F922367}|Project1.vcxproj|D:\\data-structure\\Linear_List\\circular-queue.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E719BEA1-E4A8-4FAE-A408-8EED5F922367}|Project1.vcxproj|solutionrelative:circular-queue.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E719BEA1-E4A8-4FAE-A408-8EED5F922367}|Project1.vcxproj|D:\\data-structure\\Linear_List\\stack.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E719BEA1-E4A8-4FAE-A408-8EED5F922367}|Project1.vcxproj|solutionrelative:stack.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E719BEA1-E4A8-4FAE-A408-8EED5F922367}|Project1.vcxproj|D:\\data-structure\\Linear_List\\link-stack.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E719BEA1-E4A8-4FAE-A408-8EED5F922367}|Project1.vcxproj|solutionrelative:link-stack.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E719BEA1-E4A8-4FAE-A408-8EED5F922367}|Project1.vcxproj|D:\\data-structure\\Linear_List\\sequence-list.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E719BEA1-E4A8-4FAE-A408-8EED5F922367}|Project1.vcxproj|solutionrelative:sequence-list.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E719BEA1-E4A8-4FAE-A408-8EED5F922367}|Project1.vcxproj|D:\\data-structure\\Linear_List\\circular-linked-list.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E719BEA1-E4A8-4FAE-A408-8EED5F922367}|Project1.vcxproj|solutionrelative:circular-linked-list.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E719BEA1-E4A8-4FAE-A408-8EED5F922367}|Project1.vcxproj|D:\\data-structure\\Linear_List\\double-circular-linked-list.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E719BEA1-E4A8-4FAE-A408-8EED5F922367}|Project1.vcxproj|solutionrelative:double-circular-linked-list.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "link-deque.c",
+              "DocumentMoniker": "D:\\data-structure\\Linear_List\\link-deque.c",
+              "RelativeDocumentMoniker": "link-deque.c",
+              "ToolTip": "D:\\data-structure\\Linear_List\\link-deque.c*",
+              "RelativeToolTip": "link-deque.c*",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAkwIEAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-09-03T14:35:42.108Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "circular-deque.c",
+              "DocumentMoniker": "D:\\data-structure\\Linear_List\\circular-deque.c",
+              "RelativeDocumentMoniker": "circular-deque.c",
+              "ToolTip": "D:\\data-structure\\Linear_List\\circular-deque.c",
+              "RelativeToolTip": "circular-deque.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGUAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-09-01T14:54:06.733Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "link-queue.c",
+              "DocumentMoniker": "D:\\data-structure\\Linear_List\\link-queue.c",
+              "RelativeDocumentMoniker": "link-queue.c",
+              "ToolTip": "D:\\data-structure\\Linear_List\\link-queue.c",
+              "RelativeToolTip": "link-queue.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE0AAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-08-29T14:43:13.381Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "circular-queue.c",
+              "DocumentMoniker": "D:\\data-structure\\Linear_List\\circular-queue.c",
+              "RelativeDocumentMoniker": "circular-queue.c",
+              "ToolTip": "D:\\data-structure\\Linear_List\\circular-queue.c",
+              "RelativeToolTip": "circular-queue.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD4AAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-08-29T14:21:45.498Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "queue.c",
+              "DocumentMoniker": "D:\\data-structure\\Linear_List\\queue.c",
+              "RelativeDocumentMoniker": "queue.c",
+              "ToolTip": "D:\\data-structure\\Linear_List\\queue.c",
+              "RelativeToolTip": "queue.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFEAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-08-28T13:17:43.87Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "linked-list.c",
+              "DocumentMoniker": "D:\\data-structure\\Linear_List\\linked-list.c",
+              "RelativeDocumentMoniker": "linked-list.c",
+              "ToolTip": "D:\\data-structure\\Linear_List\\linked-list.c",
+              "RelativeToolTip": "linked-list.c",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAYAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-08-27T15:29:54.618Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "double-linked-list.c",
+              "DocumentMoniker": "D:\\data-structure\\Linear_List\\double-linked-list.c",
+              "RelativeDocumentMoniker": "double-linked-list.c",
+              "ToolTip": "D:\\data-structure\\Linear_List\\double-linked-list.c",
+              "RelativeToolTip": "double-linked-list.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-08-27T15:29:15.201Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "double-circular-linked-list.c",
+              "DocumentMoniker": "D:\\data-structure\\Linear_List\\double-circular-linked-list.c",
+              "RelativeDocumentMoniker": "double-circular-linked-list.c",
+              "ToolTip": "D:\\data-structure\\Linear_List\\double-circular-linked-list.c",
+              "RelativeToolTip": "double-circular-linked-list.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-08-27T15:29:09.304Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "circular-linked-list.c",
+              "DocumentMoniker": "D:\\data-structure\\Linear_List\\circular-linked-list.c",
+              "RelativeDocumentMoniker": "circular-linked-list.c",
+              "ToolTip": "D:\\data-structure\\Linear_List\\circular-linked-list.c",
+              "RelativeToolTip": "circular-linked-list.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-08-27T15:29:02.615Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "sequence-list.c",
+              "DocumentMoniker": "D:\\data-structure\\Linear_List\\sequence-list.c",
+              "RelativeDocumentMoniker": "sequence-list.c",
+              "ToolTip": "D:\\data-structure\\Linear_List\\sequence-list.c",
+              "RelativeToolTip": "sequence-list.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-08-27T15:28:40.762Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "link-stack.c",
+              "DocumentMoniker": "D:\\data-structure\\Linear_List\\link-stack.c",
+              "RelativeDocumentMoniker": "link-stack.c",
+              "ToolTip": "D:\\data-structure\\Linear_List\\link-stack.c",
+              "RelativeToolTip": "link-stack.c",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAAAFkAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-08-27T14:54:49.89Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "stack.c",
+              "DocumentMoniker": "D:\\data-structure\\Linear_List\\stack.c",
+              "RelativeDocumentMoniker": "stack.c",
+              "ToolTip": "D:\\data-structure\\Linear_List\\stack.c",
+              "RelativeToolTip": "stack.c",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAAYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-08-26T14:24:39.715Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
