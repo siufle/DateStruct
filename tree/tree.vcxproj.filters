@@ -18,5 +18,8 @@
     <ClCompile Include="tree-parent-indicate.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="tree-child-indicate.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
