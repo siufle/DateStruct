@@ -21,5 +21,8 @@
     <ClCompile Include="tree-child-indicate.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="tree-ch-bro-indicate.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

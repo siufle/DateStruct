@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "D:\\data-structure\\tree\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{45498361-A35A-4669-A309-296354928100}|tree.vcxproj|D:\\data-structure\\tree\\tree-parent-indicate.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{45498361-A35A-4669-A309-296354928100}|tree.vcxproj|solutionrelative:tree-parent-indicate.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{45498361-A35A-4669-A309-296354928100}|tree.vcxproj|D:\\data-structure\\tree\\tree-ch-bro-indicate.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{45498361-A35A-4669-A309-296354928100}|tree.vcxproj|solutionrelative:tree-ch-bro-indicate.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{45498361-A35A-4669-A309-296354928100}|tree.vcxproj|D:\\data-structure\\tree\\tree-child-indicate.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{45498361-A35A-4669-A309-296354928100}|tree.vcxproj|solutionrelative:tree-child-indicate.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45498361-A35A-4669-A309-296354928100}|tree.vcxproj|D:\\data-structure\\tree\\tree-parent-indicate.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{45498361-A35A-4669-A309-296354928100}|tree.vcxproj|solutionrelative:tree-parent-indicate.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,8 +22,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "tree-ch-bro-indicate.c",
+              "DocumentMoniker": "D:\\data-structure\\tree\\tree-ch-bro-indicate.c",
+              "RelativeDocumentMoniker": "tree-ch-bro-indicate.c",
+              "ToolTip": "D:\\data-structure\\tree\\tree-ch-bro-indicate.c",
+              "RelativeToolTip": "tree-ch-bro-indicate.c",
+              "ViewState": "AgIAAGcAAAAAAAAAAAAkwHEAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-09-10T02:01:58.826Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -28,20 +45,20 @@
               "RelativeDocumentMoniker": "tree-child-indicate.c",
               "ToolTip": "D:\\data-structure\\tree\\tree-child-indicate.c",
               "RelativeToolTip": "tree-child-indicate.c",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAkwF4AAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2025-09-09T14:31:52.828Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "tree-parent-indicate.c",
               "DocumentMoniker": "D:\\data-structure\\tree\\tree-parent-indicate.c",
               "RelativeDocumentMoniker": "tree-parent-indicate.c",
               "ToolTip": "D:\\data-structure\\tree\\tree-parent-indicate.c",
               "RelativeToolTip": "tree-parent-indicate.c",
-              "ViewState": "AgIAAEUAAAAAAAAAAAAAAFQAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFQAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2025-09-06T14:16:53.114Z",
               "EditorCaption": ""

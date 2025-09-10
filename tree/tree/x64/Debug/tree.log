@@ -1,34 +1,34 @@
-﻿  tree-child-indicate.c
-D:\data-structure\tree\tree-child-indicate.c(66,10): warning C4473: “scanf_s”: 没有为格式字符串传递足够的参数
-      D:\data-structure\tree\tree-child-indicate.c(66,10):
+﻿  tree-ch-bro-indicate.c
+D:\data-structure\tree\tree-ch-bro-indicate.c(94,10): warning C4473: “scanf_s”: 没有为格式字符串传递足够的参数
+      D:\data-structure\tree\tree-ch-bro-indicate.c(94,10):
       占位符和其参数预计 2 可变参数，但提供的却是 1 参数
-      D:\data-structure\tree\tree-child-indicate.c(66,10):
+      D:\data-structure\tree\tree-ch-bro-indicate.c(94,10):
       缺失的可变参数 2 为格式字符串“%c”所需
-      D:\data-structure\tree\tree-child-indicate.c(66,10):
+      D:\data-structure\tree\tree-ch-bro-indicate.c(94,10):
       此参数用作缓冲区大小
   
-D:\data-structure\tree\tree-child-indicate.c(72,11): warning C4473: “scanf_s”: 没有为格式字符串传递足够的参数
-      D:\data-structure\tree\tree-child-indicate.c(72,11):
+D:\data-structure\tree\tree-ch-bro-indicate.c(101,11): warning C4473: “scanf_s”: 没有为格式字符串传递足够的参数
+      D:\data-structure\tree\tree-ch-bro-indicate.c(101,11):
       占位符和其参数预计 2 可变参数，但提供的却是 1 参数
-      D:\data-structure\tree\tree-child-indicate.c(72,11):
+      D:\data-structure\tree\tree-ch-bro-indicate.c(101,11):
       缺失的可变参数 2 为格式字符串“%c”所需
-      D:\data-structure\tree\tree-child-indicate.c(72,11):
+      D:\data-structure\tree\tree-ch-bro-indicate.c(101,11):
       此参数用作缓冲区大小
   
-D:\data-structure\tree\tree-child-indicate.c(73,11): warning C4473: “scanf_s”: 没有为格式字符串传递足够的参数
-      D:\data-structure\tree\tree-child-indicate.c(73,11):
+D:\data-structure\tree\tree-ch-bro-indicate.c(102,11): warning C4473: “scanf_s”: 没有为格式字符串传递足够的参数
+      D:\data-structure\tree\tree-ch-bro-indicate.c(102,11):
       占位符和其参数预计 2 可变参数，但提供的却是 1 参数
-      D:\data-structure\tree\tree-child-indicate.c(73,11):
+      D:\data-structure\tree\tree-ch-bro-indicate.c(102,11):
       缺失的可变参数 2 为格式字符串“%c”所需
-      D:\data-structure\tree\tree-child-indicate.c(73,11):
+      D:\data-structure\tree\tree-ch-bro-indicate.c(102,11):
       此参数用作缓冲区大小
   
-D:\data-structure\tree\tree-child-indicate.c(77,10): warning C4473: “scanf_s”: 没有为格式字符串传递足够的参数
-      D:\data-structure\tree\tree-child-indicate.c(77,10):
+D:\data-structure\tree\tree-ch-bro-indicate.c(106,10): warning C4473: “scanf_s”: 没有为格式字符串传递足够的参数
+      D:\data-structure\tree\tree-ch-bro-indicate.c(106,10):
       占位符和其参数预计 2 可变参数，但提供的却是 1 参数
-      D:\data-structure\tree\tree-child-indicate.c(77,10):
+      D:\data-structure\tree\tree-ch-bro-indicate.c(106,10):
       缺失的可变参数 2 为格式字符串“%c”所需
-      D:\data-structure\tree\tree-child-indicate.c(77,10):
+      D:\data-structure\tree\tree-ch-bro-indicate.c(106,10):
       此参数用作缓冲区大小
   
   tree.vcxproj -> D:\data-structure\tree\x64\Debug\tree.exe
