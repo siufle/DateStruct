@@ -1,35 +1,34 @@
-﻿  binary-tree-sequence.c
-D:\data-structure\tree\binary-tree-sequence.c(48,11): warning C4047: “=”:“char”与“char [2]”的间接级别不同
-D:\data-structure\tree\binary-tree-sequence.c(54,10): warning C4473: “scanf_s”: 没有为格式字符串传递足够的参数
-      D:\data-structure\tree\binary-tree-sequence.c(54,10):
+﻿  binary-tree-link.c
+D:\data-structure\tree\binary-tree-link.c(88,10): warning C4473: “scanf_s”: 没有为格式字符串传递足够的参数
+      D:\data-structure\tree\binary-tree-link.c(88,10):
       占位符和其参数预计 2 可变参数，但提供的却是 1 参数
-      D:\data-structure\tree\binary-tree-sequence.c(54,10):
+      D:\data-structure\tree\binary-tree-link.c(88,10):
       缺失的可变参数 2 为格式字符串“%c”所需
-      D:\data-structure\tree\binary-tree-sequence.c(54,10):
+      D:\data-structure\tree\binary-tree-link.c(88,10):
       此参数用作缓冲区大小
   
-D:\data-structure\tree\binary-tree-sequence.c(61,11): warning C4473: “scanf_s”: 没有为格式字符串传递足够的参数
-      D:\data-structure\tree\binary-tree-sequence.c(61,11):
+D:\data-structure\tree\binary-tree-link.c(95,11): warning C4473: “scanf_s”: 没有为格式字符串传递足够的参数
+      D:\data-structure\tree\binary-tree-link.c(95,11):
       占位符和其参数预计 2 可变参数，但提供的却是 1 参数
-      D:\data-structure\tree\binary-tree-sequence.c(61,11):
+      D:\data-structure\tree\binary-tree-link.c(95,11):
       缺失的可变参数 2 为格式字符串“%c”所需
-      D:\data-structure\tree\binary-tree-sequence.c(61,11):
+      D:\data-structure\tree\binary-tree-link.c(95,11):
       此参数用作缓冲区大小
   
-D:\data-structure\tree\binary-tree-sequence.c(62,11): warning C4473: “scanf_s”: 没有为格式字符串传递足够的参数
-      D:\data-structure\tree\binary-tree-sequence.c(62,11):
+D:\data-structure\tree\binary-tree-link.c(96,11): warning C4473: “scanf_s”: 没有为格式字符串传递足够的参数
+      D:\data-structure\tree\binary-tree-link.c(96,11):
       占位符和其参数预计 2 可变参数，但提供的却是 1 参数
-      D:\data-structure\tree\binary-tree-sequence.c(62,11):
+      D:\data-structure\tree\binary-tree-link.c(96,11):
       缺失的可变参数 2 为格式字符串“%c”所需
-      D:\data-structure\tree\binary-tree-sequence.c(62,11):
+      D:\data-structure\tree\binary-tree-link.c(96,11):
       此参数用作缓冲区大小
   
-D:\data-structure\tree\binary-tree-sequence.c(67,10): warning C4473: “scanf_s”: 没有为格式字符串传递足够的参数
-      D:\data-structure\tree\binary-tree-sequence.c(67,10):
+D:\data-structure\tree\binary-tree-link.c(101,10): warning C4473: “scanf_s”: 没有为格式字符串传递足够的参数
+      D:\data-structure\tree\binary-tree-link.c(101,10):
       占位符和其参数预计 2 可变参数，但提供的却是 1 参数
-      D:\data-structure\tree\binary-tree-sequence.c(67,10):
+      D:\data-structure\tree\binary-tree-link.c(101,10):
       缺失的可变参数 2 为格式字符串“%c”所需
-      D:\data-structure\tree\binary-tree-sequence.c(67,10):
+      D:\data-structure\tree\binary-tree-link.c(101,10):
       此参数用作缓冲区大小
   
   tree.vcxproj -> D:\data-structure\tree\x64\Debug\tree.exe

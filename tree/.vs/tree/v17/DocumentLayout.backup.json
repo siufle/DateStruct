@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\data-structure\\tree\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{45498361-A35A-4669-A309-296354928100}|tree.vcxproj|D:\\data-structure\\tree\\binary-tree-link.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{45498361-A35A-4669-A309-296354928100}|tree.vcxproj|solutionrelative:binary-tree-link.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{45498361-A35A-4669-A309-296354928100}|tree.vcxproj|D:\\data-structure\\tree\\binary-tree-sequence.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{45498361-A35A-4669-A309-296354928100}|tree.vcxproj|solutionrelative:binary-tree-sequence.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -31,31 +35,45 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "binary-tree-link.c",
+              "DocumentMoniker": "D:\\data-structure\\tree\\binary-tree-link.c",
+              "RelativeDocumentMoniker": "binary-tree-link.c",
+              "ToolTip": "D:\\data-structure\\tree\\binary-tree-link.c",
+              "RelativeToolTip": "binary-tree-link.c",
+              "ViewState": "AgIAAHMAAAAAAAAAAAAAAIIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-09-11T15:06:18.426Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "binary-tree-sequence.c",
               "DocumentMoniker": "D:\\data-structure\\tree\\binary-tree-sequence.c",
               "RelativeDocumentMoniker": "binary-tree-sequence.c",
-              "ToolTip": "D:\\data-structure\\tree\\binary-tree-sequence.c*",
-              "RelativeToolTip": "binary-tree-sequence.c*",
-              "ViewState": "AgIAAEgAAAAAAAAAAAAcwE0AAAAUAAAAAAAAAA==",
+              "ToolTip": "D:\\data-structure\\tree\\binary-tree-sequence.c",
+              "RelativeToolTip": "binary-tree-sequence.c",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAEIAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2025-09-11T03:41:10.819Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "tree-ch-bro-indicate.c",
               "DocumentMoniker": "D:\\data-structure\\tree\\tree-ch-bro-indicate.c",
               "RelativeDocumentMoniker": "tree-ch-bro-indicate.c",
               "ToolTip": "D:\\data-structure\\tree\\tree-ch-bro-indicate.c",
               "RelativeToolTip": "tree-ch-bro-indicate.c",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHEAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAHEAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-09-10T02:01:58.826Z"
+              "WhenOpened": "2025-09-10T02:01:58.826Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "tree-child-indicate.c",
               "DocumentMoniker": "D:\\data-structure\\tree\\tree-child-indicate.c",
               "RelativeDocumentMoniker": "tree-child-indicate.c",
@@ -67,7 +85,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "tree-parent-indicate.c",
               "DocumentMoniker": "D:\\data-structure\\tree\\tree-parent-indicate.c",
               "RelativeDocumentMoniker": "tree-parent-indicate.c",
