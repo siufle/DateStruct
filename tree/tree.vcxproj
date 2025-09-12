@@ -129,6 +129,7 @@
   <ItemGroup>
     <ClCompile Include="binary-tree-link.c" />
     <ClCompile Include="binary-tree-sequence.c" />
+    <ClCompile Include="BTree-traverse.c" />
     <ClCompile Include="tree-ch-bro-indicate.c" />
     <ClCompile Include="tree-child-indicate.c" />
     <ClCompile Include="tree-parent-indicate.c" />

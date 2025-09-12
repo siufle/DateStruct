@@ -1,34 +1,26 @@
-﻿  binary-tree-link.c
-D:\data-structure\tree\binary-tree-link.c(88,10): warning C4473: “scanf_s”: 没有为格式字符串传递足够的参数
-      D:\data-structure\tree\binary-tree-link.c(88,10):
+﻿  BTree-traverse.c
+D:\data-structure\tree\BTree-traverse.c(246,10): warning C4473: “scanf_s”: 没有为格式字符串传递足够的参数
+      D:\data-structure\tree\BTree-traverse.c(246,10):
       占位符和其参数预计 2 可变参数，但提供的却是 1 参数
-      D:\data-structure\tree\binary-tree-link.c(88,10):
+      D:\data-structure\tree\BTree-traverse.c(246,10):
       缺失的可变参数 2 为格式字符串“%c”所需
-      D:\data-structure\tree\binary-tree-link.c(88,10):
+      D:\data-structure\tree\BTree-traverse.c(246,10):
       此参数用作缓冲区大小
   
-D:\data-structure\tree\binary-tree-link.c(95,11): warning C4473: “scanf_s”: 没有为格式字符串传递足够的参数
-      D:\data-structure\tree\binary-tree-link.c(95,11):
+D:\data-structure\tree\BTree-traverse.c(253,11): warning C4473: “scanf_s”: 没有为格式字符串传递足够的参数
+      D:\data-structure\tree\BTree-traverse.c(253,11):
       占位符和其参数预计 2 可变参数，但提供的却是 1 参数
-      D:\data-structure\tree\binary-tree-link.c(95,11):
+      D:\data-structure\tree\BTree-traverse.c(253,11):
       缺失的可变参数 2 为格式字符串“%c”所需
-      D:\data-structure\tree\binary-tree-link.c(95,11):
+      D:\data-structure\tree\BTree-traverse.c(253,11):
       此参数用作缓冲区大小
   
-D:\data-structure\tree\binary-tree-link.c(96,11): warning C4473: “scanf_s”: 没有为格式字符串传递足够的参数
-      D:\data-structure\tree\binary-tree-link.c(96,11):
+D:\data-structure\tree\BTree-traverse.c(254,11): warning C4473: “scanf_s”: 没有为格式字符串传递足够的参数
+      D:\data-structure\tree\BTree-traverse.c(254,11):
       占位符和其参数预计 2 可变参数，但提供的却是 1 参数
-      D:\data-structure\tree\binary-tree-link.c(96,11):
+      D:\data-structure\tree\BTree-traverse.c(254,11):
       缺失的可变参数 2 为格式字符串“%c”所需
-      D:\data-structure\tree\binary-tree-link.c(96,11):
-      此参数用作缓冲区大小
-  
-D:\data-structure\tree\binary-tree-link.c(101,10): warning C4473: “scanf_s”: 没有为格式字符串传递足够的参数
-      D:\data-structure\tree\binary-tree-link.c(101,10):
-      占位符和其参数预计 2 可变参数，但提供的却是 1 参数
-      D:\data-structure\tree\binary-tree-link.c(101,10):
-      缺失的可变参数 2 为格式字符串“%c”所需
-      D:\data-structure\tree\binary-tree-link.c(101,10):
+      D:\data-structure\tree\BTree-traverse.c(254,11):
       此参数用作缓冲区大小
   
   tree.vcxproj -> D:\data-structure\tree\x64\Debug\tree.exe
