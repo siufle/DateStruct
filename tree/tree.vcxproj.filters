@@ -33,5 +33,8 @@
     <ClCompile Include="BTree-traverse.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="BTree-traverse-noRecursive.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
