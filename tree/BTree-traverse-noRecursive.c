@@ -226,69 +226,69 @@
 //				  判断是左子树访问完还是右子树访问完 get栈顶元素k
 //				  如果k的存在右孩子且有孩子的值不等于pre 此时右孩子还没访问 则访问右孩子
 //				  否则直接将栈顶元素出栈 访问栈顶元素(输出栈顶元素的数据) 令pre=k
-void PostOrder(LinkBTree root)
-{
-	if (root == NULL)
-	{
-		printf("空树");
-		return;
-	}
-	LinkStack stack = InitStack();
-	BTNode* p = root;
-	BTNode* k = NULL;
-	BTNode* pre = NULL;
-	while (p != NULL || IsEmpty(stack) == 0)
-	{
-		if (p != NULL)
-		{
-			Push(stack, p);
-			p = p->lch;
-		}
-		else
-		{//p为空，栈顶某棵子树访问完了，先get栈顶
-			k = Get(stack);
-			if (k->rch != NULL && pre != k->rch)
-			{//右子树还没访问
-				p = k->rch;
-			}
-			else
-			{//右子树不存在或者已经访问完了
-				k = Pop(stack);
-				Visit(k);
-				pre = k;
-			}
-		}
-	}
-	printf("\n");
-}
-
-//----------------------------------------------
-int main()
-{
-	LinkBTree root = NULL;
-	//用于记录当前输入的是左孩子还是右孩子
-	int flag;
-	int n;
-	char r;
-	scanf_s("%d", &n);
-	getchar();
-	scanf_s("%c", &r);
-	root = InitBTree(r);
-	char x;
-	char px;
-	for (int i = 1; i < n; i++)
-	{
-		getchar();
-		scanf_s("%c ", &x);
-		scanf_s("%c ", &px);
-		scanf_s("%d", &flag);
-		Insert(root, x, px, flag);
-	}
-	PreOrder(root);
-	InOrder(root);
-	PostOrder(root);
-	return 0;
-}
+//void PostOrder(LinkBTree root)
+//{
+//	if (root == NULL)
+//	{
+//		printf("空树");
+//		return;
+//	}
+//	LinkStack stack = InitStack();
+//	BTNode* p = root;
+//	BTNode* k = NULL;
+//	BTNode* pre = NULL;
+//	while (p != NULL || IsEmpty(stack) == 0)
+//	{
+//		if (p != NULL)
+//		{
+//			Push(stack, p);
+//			p = p->lch;
+//		}
+//		else
+//		{//p为空，栈顶某棵子树访问完了，先get栈顶
+//			k = Get(stack);
+//			if (k->rch != NULL && pre != k->rch)
+//			{//右子树还没访问
+//				p = k->rch;
+//			}
+//			else
+//			{//右子树不存在或者已经访问完了
+//				k = Pop(stack);
+//				Visit(k);
+//				pre = k;
+//			}
+//		}
+//	}
+//	printf("\n");
+//}
+//
+////----------------------------------------------
+//int main()
+//{
+//	LinkBTree root = NULL;
+//	//用于记录当前输入的是左孩子还是右孩子
+//	int flag;
+//	int n;
+//	char r;
+//	scanf_s("%d", &n);
+//	getchar();
+//	scanf_s("%c", &r);
+//	root = InitBTree(r);
+//	char x;
+//	char px;
+//	for (int i = 1; i < n; i++)
+//	{
+//		getchar();
+//		scanf_s("%c ", &x);
+//		scanf_s("%c ", &px);
+//		scanf_s("%d", &flag);
+//		Insert(root, x, px, flag);
+//	}
+//	PreOrder(root);
+//	InOrder(root);
+//	PostOrder(root);
+//	return 0;
+//}
 
 /*
 9
