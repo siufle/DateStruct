@@ -39,5 +39,8 @@
     <ClCompile Include="BTree-thread.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="binary-search-tree.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
