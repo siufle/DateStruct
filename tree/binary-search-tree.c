@@ -115,6 +115,135 @@
 //	return root;
 //}
 //
+////中序遍历
+//void InOrder(BSTree root)
+//{
+//	if (root == NULL)
+//	{
+//		return;
+//	}
+//	InOrder(root->lch);
+//	printf("%d ", root->data);
+//	InOrder(root->rch);
+//}
+//
+////删除节点(非递归)
+//BSTree DeleteBSTNode(BSTree root, int x)
+//{
+//	if (root == NULL)
+//	{
+//		printf("树为空 无法删除\n");
+//		return root;
+//	}
+//	BSTNode* p = root;
+//	BSTNode* pre = NULL;
+//	//找到要删除的节点p和他的父亲节点
+//	while (p->data != x)
+//	{
+//		pre = p;
+//		if (x < p->data)
+//		{
+//			p = p->lch;
+//		}
+//		else
+//		{
+//			p = p->rch;
+//		}
+//	}
+//	//度为2 删除当前节点 找到中序序列中当前节点的后继 使其取代当前节点的位置 
+//	//直接将当前节点的值改变为后继节点的值 并将后继节点删除
+//	if (p->lch != NULL && p->rch != NULL)
+//	{
+//		BSTNode* h = p->rch;
+//		BSTNode* fh = p;
+//		while (h->lch != NULL)
+//		{
+//			fh = h;
+//			h = h->lch;
+//		}
+//		p->data = h->data;
+//		p = h;
+//		pre = fh;
+//	}
+//	//度为1或0 删除p节点
+//	BSTNode* ch = NULL;
+//	if (p->lch != NULL)
+//	{
+//		ch = p->lch;
+//	}
+//	else
+//	{
+//		ch = p->rch;
+//	}
+//	//要删除的节点为根节点
+//	if (pre == NULL)
+//	{
+//		root = ch;
+//	}
+//	else
+//	{
+//		if (p == pre->lch)
+//		{
+//			pre->lch = ch;
+//		}
+//		else
+//		{
+//			pre->rch = ch;
+//		}
+//	}
+//	free(p);
+//	p = NULL;
+//	return root;
+//}
+//
+////删除节点(递归)
+//BSTree DeleteBSTNodeRecursion(BSTree root, int x)
+//{
+//	if (root == NULL)
+//	{
+//		printf("树为空 无法删除\n");
+//		return root;
+//	}
+//	if (x < root->data)
+//	{
+//		root->lch = DeleteBSTNodeRecursion(root->lch, x);
+//	}
+//	else if (x > root->data)
+//	{
+//		root->rch = DeleteBSTNodeRecursion(root->rch, x);
+//	}
+//	else
+//	{
+//		//度为2
+//		if (root->lch != NULL && root->rch != NULL)
+//		{
+//			//找当前节点在中序序列中的前驱
+//			BSTNode* p = root->lch;
+//			while (p->rch != NULL)
+//			{
+//				p = p->rch;
+//			}
+//			root->data = p->data;
+//			root->lch = DeleteBSTNodeRecursion(root->lch, p->data);
+//		}
+//		else //度为0或1
+//		{
+//			BSTNode* p = root;
+//			if (root->lch != NULL)
+//			{
+//				root = root->lch;
+//			}
+//			else
+//			{
+//				root = root->rch;
+//			}
+//			free(p);
+//			p = NULL;
+//		}
+//	}
+//	return root;
+//}
+//
 //int main()
 //{
 //	BSTree root = NULL;
@@ -127,8 +256,14 @@
 //		//root = Insert(root, x);
 //		root = InsertRecursion(root, x);
 //	}
+//	InOrder(root);
+//	printf("\n");
 //	scanf_s("%d", &x);
-//	BSTNode* p = SearchRecursion(root, x);
+//	//DeleteBSTNode(root, x);
+//	DeleteBSTNodeRecursion(root, x);
+//	InOrder(root);
+//	printf("\n");
+//	/*BSTNode* p = SearchRecursion(root, x);
 //	if (p != NULL)
 //	{
 //		printf("yes %d", x);
@@ -136,7 +271,7 @@
 //	else
 //	{
 //		printf("no");
-//	}
+//	}*/
 //	return 0;
 //}
 /*
