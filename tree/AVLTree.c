@@ -31,9 +31,14 @@ int Geth(AVLTree x)
 	}
 }
 
-// 右旋
-// 有节点失衡x且失衡节点x的左子树高度大于右子树时 对失衡节点x的子树进行右旋
-AVLTree RightRotation(AVLTree x)
+//插入节点所引起的节点失衡只有四种情况
+//1.LL---在失衡节点x的左子树的左孩子加入新节点导致失衡 对失衡节点x的子树进行右旋
+//2.RR---在失衡节点x的右子树的右孩子加入新节点导致失衡 对失衡节点x的子树进行左旋
+//3.LR---在失衡节点x的左子树的右孩子加入新节点导致失衡 对失衡节点x的左子树的子树先进行左旋 再对失衡节点x的子树进行右旋
+//4.RL---在失衡节点x的右子树的左孩子加入新节点导致失衡 对失衡节点x的右子树的子树先进行右旋 再对失衡节点x的子树进行左旋
+
+//1.LL---在失衡节点x的左子树的左孩子加入新节点导致失衡 对失衡节点x的子树进行右旋
+AVLTree LL_Rotation(AVLTree x)
 {
 	//1.将失衡节点的左子树赋值给y
 	AVLNode* y = x->lch;
@@ -48,9 +53,8 @@ AVLTree RightRotation(AVLTree x)
 	return y;
 }
 
-// 左旋
-// 有节点失衡x且失衡节点x的右子树高度大于左子树时 对失衡节点x的子树进行左旋
-AVLTree LeftRotation(AVLTree x)
+//2.RR---在失衡节点x的右子树的右孩子加入新节点导致失衡 对失衡节点x的子树进行左旋
+AVLTree RR_Rotation(AVLTree x)
 {
 	//1.将失衡节点的右子树赋值给y
 	AVLNode* y = x->rch;
@@ -65,8 +69,119 @@ AVLTree LeftRotation(AVLTree x)
 	return y;
 }
 
+//3.LR---在失衡节点x的左子树的右孩子加入新节点导致失衡 对失衡节点x的左子树的子树先进行左旋 再对失衡节点x的子树进行右旋
+AVLTree LR_Rotation(AVLTree x)
+{
+	//对失衡节点x的左子树的子树先进行左旋
+	x->lch = RR_Rotation(x->lch);
+	//再对失衡节点x的子树进行右旋
+	x = LL_Rotation(x);
+	return x;
+}
+
+//4.RL---在失衡节点x的右子树的左孩子加入新节点导致失衡 对失衡节点x的右子树的子树先进行右旋 再对失衡节点x的子树进行左旋
+AVLTree RL_Rotation(AVLTree x)
+{
+	//对失衡节点x的右子树的子树先进行右旋
+	x->rch = LL_Rotation(x->rch);
+	//再对失衡节点x的子树进行左旋
+	x = RR_Rotation(x);
+	return x;
+}
+
+//创建节点
+AVLNode* CreateNode(int x)
+{
+	AVLNode* s = (AVLNode*)malloc(sizeof(AVLNode));
+	if (s == NULL)
+	{
+		printf("新节点创建失败");
+		return NULL;
+	}
+	s->data = x;
+	s->lch = NULL;
+	s->rch = NULL;
+	s->h = 1;
+	return s;
+}
+
+//插入节点
+AVLTree Insert(AVLTree root, int x)
+{
+	if (root == NULL)
+	{
+		root = CreateNode(x);
+		return root;
+	}
+	if (x < root->data)
+	{
+		root->lch = Insert(root->lch, x);
+		//在左子树插入节点可能会导致有节点失衡
+		if (Geth(root->lch) - Geth(root->rch) > 1)
+		{//root失衡
+			AVLNode* left = root->lch;
+			//如果插入的值小于左子树的值则为LL 否则为LR
+			if (x < left->data)
+			{//LL
+				root = LL_Rotation(root);
+			}
+			else 
+			{//LR
+				root = LR_Rotation(root);
+			}
+		}
+	}
+	else
+	{
+		root->rch = Insert(root->rch, x);
+		//在右子树插入节点可能会导致有节点失衡
+		if (Geth(root->rch) - Geth(root->lch) > 1)
+		{//root失衡
+			AVLNode* right = root->rch;
+			//如果插入的值小于左子树的值则为RL 否则为RR
+			if (x < right->data)
+			{//RL
+				root = RL_Rotation(root);
+			}
+			else
+			{//RR
+				root = RR_Rotation(root);
+			}
+		}
+	}
+	root->h = 1 + GetMax(Geth(root->lch), Geth(root->rch));
+	return root;
+}
+
+//中序遍历
+void InOrder(AVLTree root)
+{
+	if (root == NULL)
+	{
+		return;
+	}
+	InOrder(root->lch);
+	//平衡因子
+	int p = Geth(root->lch) - Geth(root->rch);
+	printf("%d  %d\n", root->data, p);
+	InOrder(root->rch);
+}
+
 int main()
 {
 	AVLTree root = NULL;
+	int n;
+	int x;
+	scanf_s("%d", &n);
+	for (int i = 0; i < n; i++)
+	{
+		scanf_s("%d", &x);
+		root = Insert(root, x);
+	}
+	InOrder(root);
 	return 0;
 }
+/*
+9
+8 3 10 1 6 14 4 7 13
+*/
