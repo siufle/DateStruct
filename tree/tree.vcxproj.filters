@@ -42,5 +42,8 @@
     <ClCompile Include="binary-search-tree.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="AVLTree.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

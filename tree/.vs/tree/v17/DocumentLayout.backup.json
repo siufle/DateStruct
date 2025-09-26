@@ -3,11 +3,12 @@
   "WorkspaceRootPath": "D:\\data-structure\\tree\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{45498361-A35A-4669-A309-296354928100}|tree.vcxproj|D:\\data-structure\\tree\\binary-search-tree.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{45498361-A35A-4669-A309-296354928100}|tree.vcxproj|solutionrelative:binary-search-tree.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{45498361-A35A-4669-A309-296354928100}|tree.vcxproj|D:\\data-structure\\tree\\AVLTree.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{45498361-A35A-4669-A309-296354928100}|tree.vcxproj|solutionrelative:AVLTree.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u9EC4\u666F\u704F\\OneDrive\\\u684C\u9762\\\u4E8C\u53C9\u6392\u5E8F\u6811\u4EE3\u7801\\\u4E8C\u53C9\u6392\u5E8F\u6811\u4EE3\u7801\\\u4E8C\u53C9\u6392\u5E8F\u6811\u4EE3\u7801.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{45498361-A35A-4669-A309-296354928100}|tree.vcxproj|D:\\data-structure\\tree\\binary-search-tree.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{45498361-A35A-4669-A309-296354928100}|tree.vcxproj|solutionrelative:binary-search-tree.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{45498361-A35A-4669-A309-296354928100}|tree.vcxproj|D:\\data-structure\\tree\\BTree-thread.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -49,28 +50,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "\u4E8C\u53C9\u6392\u5E8F\u6811\u4EE3\u7801.c",
-              "DocumentMoniker": "C:\\Users\\\u9EC4\u666F\u704F\\OneDrive\\\u684C\u9762\\\u4E8C\u53C9\u6392\u5E8F\u6811\u4EE3\u7801\\\u4E8C\u53C9\u6392\u5E8F\u6811\u4EE3\u7801\\\u4E8C\u53C9\u6392\u5E8F\u6811\u4EE3\u7801.c",
-              "ToolTip": "C:\\Users\\\u9EC4\u666F\u704F\\OneDrive\\\u684C\u9762\\\u4E8C\u53C9\u6392\u5E8F\u6811\u4EE3\u7801\\\u4E8C\u53C9\u6392\u5E8F\u6811\u4EE3\u7801\\\u4E8C\u53C9\u6392\u5E8F\u6811\u4EE3\u7801.c",
-              "ViewState": "AgIAAJUAAAAAAAAAAAAAABEAAAAjAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "AVLTree.c",
+              "DocumentMoniker": "D:\\data-structure\\tree\\AVLTree.c",
+              "RelativeDocumentMoniker": "AVLTree.c",
+              "ToolTip": "D:\\data-structure\\tree\\AVLTree.c",
+              "RelativeToolTip": "AVLTree.c",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAgwEAAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-09-22T15:04:52.262Z",
+              "WhenOpened": "2025-09-25T14:04:46.043Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "binary-search-tree.c",
               "DocumentMoniker": "D:\\data-structure\\tree\\binary-search-tree.c",
               "RelativeDocumentMoniker": "binary-search-tree.c",
               "ToolTip": "D:\\data-structure\\tree\\binary-search-tree.c",
               "RelativeToolTip": "binary-search-tree.c",
-              "ViewState": "AgIAABABAAAAAAAAAAAUwBYBAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAPQAAAAAAAAAAAAYwBQBAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2025-09-19T14:43:23.252Z",
               "EditorCaption": ""

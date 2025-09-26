@@ -127,6 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="AVLTree.c" />
     <ClCompile Include="binary-search-tree.c" />
     <ClCompile Include="binary-tree-link.c" />
     <ClCompile Include="binary-tree-sequence.c" />
