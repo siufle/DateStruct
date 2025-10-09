@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\data-structure\\union_find_set\\union_find_set\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{283DC3C9-B22D-4B59-83D6-62DF80421D25}|union_find_set.vcxproj|D:\\data-structure\\union_find_set\\union_find_set\\union_find_set.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{283DC3C9-B22D-4B59-83D6-62DF80421D25}|union_find_set.vcxproj|solutionrelative:union_find_set.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "union_find_set.c",
+              "DocumentMoniker": "D:\\data-structure\\union_find_set\\union_find_set\\union_find_set.c",
+              "RelativeDocumentMoniker": "union_find_set.c",
+              "ToolTip": "D:\\data-structure\\union_find_set\\union_find_set\\union_find_set.c",
+              "RelativeToolTip": "union_find_set.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-10-09T14:09:08.237Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
