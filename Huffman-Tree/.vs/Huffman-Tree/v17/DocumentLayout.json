@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\data-structure\\Huffman-Tree\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3E6E1972-4D98-4527-A3E0-E6E34F2F82F7}|Huffman-Tree.vcxproj|D:\\data-structure\\Huffman-Tree\\Huffman-Code.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3E6E1972-4D98-4527-A3E0-E6E34F2F82F7}|Huffman-Tree.vcxproj|solutionrelative:Huffman-Code.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Huffman-Code.c",
+              "DocumentMoniker": "D:\\data-structure\\Huffman-Tree\\Huffman-Code.c",
+              "RelativeDocumentMoniker": "Huffman-Code.c",
+              "ToolTip": "D:\\data-structure\\Huffman-Tree\\Huffman-Code.c",
+              "RelativeToolTip": "Huffman-Code.c",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-10-13T14:30:41.399Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
