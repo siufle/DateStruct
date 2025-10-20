@@ -1,0 +1,35 @@
+﻿  adjacencyMatrix.c
+D:\data-structure\map\adjacency-matrix\adjacencyMatrix.c(36,11): warning C4473: “scanf_s”: 没有为格式字符串传递足够的参数
+      D:\data-structure\map\adjacency-matrix\adjacencyMatrix.c(36,11):
+      占位符和其参数预计 2 可变参数，但提供的却是 1 参数
+      D:\data-structure\map\adjacency-matrix\adjacencyMatrix.c(36,11):
+      缺失的可变参数 2 为格式字符串“%c”所需
+      D:\data-structure\map\adjacency-matrix\adjacencyMatrix.c(36,11):
+      此参数用作缓冲区大小
+  
+D:\data-structure\map\adjacency-matrix\adjacencyMatrix.c(50,11): warning C4473: “scanf_s”: 没有为格式字符串传递足够的参数
+      D:\data-structure\map\adjacency-matrix\adjacencyMatrix.c(50,11):
+      占位符和其参数预计 2 可变参数，但提供的却是 1 参数
+      D:\data-structure\map\adjacency-matrix\adjacencyMatrix.c(50,11):
+      缺失的可变参数 2 为格式字符串“%c”所需
+      D:\data-structure\map\adjacency-matrix\adjacencyMatrix.c(50,11):
+      此参数用作缓冲区大小
+  
+D:\data-structure\map\adjacency-matrix\adjacencyMatrix.c(51,11): warning C4473: “scanf_s”: 没有为格式字符串传递足够的参数
+      D:\data-structure\map\adjacency-matrix\adjacencyMatrix.c(51,11):
+      占位符和其参数预计 2 可变参数，但提供的却是 1 参数
+      D:\data-structure\map\adjacency-matrix\adjacencyMatrix.c(51,11):
+      缺失的可变参数 2 为格式字符串“%c”所需
+      D:\data-structure\map\adjacency-matrix\adjacencyMatrix.c(51,11):
+      此参数用作缓冲区大小
+  
+D:\data-structure\map\adjacency-matrix\adjacencyMatrix.c(62,10): warning C4473: “scanf_s”: 没有为格式字符串传递足够的参数
+      D:\data-structure\map\adjacency-matrix\adjacencyMatrix.c(62,10):
+      占位符和其参数预计 2 可变参数，但提供的却是 1 参数
+      D:\data-structure\map\adjacency-matrix\adjacencyMatrix.c(62,10):
+      缺失的可变参数 2 为格式字符串“%c”所需
+      D:\data-structure\map\adjacency-matrix\adjacencyMatrix.c(62,10):
+      此参数用作缓冲区大小
+  
+D:\data-structure\map\adjacency-matrix\adjacencyMatrix.c(26,1): warning C4715: “find”: 不是所有的控件路径都返回值
+  adjacency-matrix.vcxproj -> D:\data-structure\map\adjacency-matrix\x64\Debug\adjacency-matrix.exe
