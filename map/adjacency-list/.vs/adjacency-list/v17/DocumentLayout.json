@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\data-structure\\map\\adjacency-list\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E99E469D-C28C-45E7-B090-19A643B3500A}|adjacency-list.vcxproj|D:\\data-structure\\map\\adjacency-list\\adjacencyList.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E99E469D-C28C-45E7-B090-19A643B3500A}|adjacency-list.vcxproj|solutionrelative:adjacencyList.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "adjacencyList.c",
+              "DocumentMoniker": "D:\\data-structure\\map\\adjacency-list\\adjacencyList.c",
+              "RelativeDocumentMoniker": "adjacencyList.c",
+              "ToolTip": "D:\\data-structure\\map\\adjacency-list\\adjacencyList.c",
+              "RelativeToolTip": "adjacencyList.c",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAAAE4AAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-10-20T15:29:44.237Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
