@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\data-structure\\map\\Cross-linked-list\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{54E100AC-5D38-42A5-B751-7F1214AFB38B}|Cross-linked-list.vcxproj|D:\\data-structure\\map\\Cross-linked-list\\Cross-linkedList.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{54E100AC-5D38-42A5-B751-7F1214AFB38B}|Cross-linked-list.vcxproj|solutionrelative:Cross-linkedList.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Cross-linkedList.c",
+              "DocumentMoniker": "D:\\data-structure\\map\\Cross-linked-list\\Cross-linkedList.c",
+              "RelativeDocumentMoniker": "Cross-linkedList.c",
+              "ToolTip": "D:\\data-structure\\map\\Cross-linked-list\\Cross-linkedList.c",
+              "RelativeToolTip": "Cross-linkedList.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-10-23T13:56:45.644Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
