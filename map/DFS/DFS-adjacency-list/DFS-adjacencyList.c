@@ -73,7 +73,7 @@ int main()
 		ENode* e1 = (ENode*)malloc(sizeof(ENode));
 		if (e1 != NULL)
 		{
-			e1->adj = xi;
+			e1->adj = yi;
 			e1->next = g[xi].first;
 			g[xi].first = e1;
 		}
@@ -81,7 +81,7 @@ int main()
 		ENode* e2 = (ENode*)malloc(sizeof(ENode));
 		if (e2 != NULL)
 		{
-			e2->adj = yi;
+			e2->adj = xi;
 			e2->next = g[yi].first;
 			g[yi].first = e2;
 		}
