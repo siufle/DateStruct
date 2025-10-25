@@ -1,0 +1,177 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C6031",
+          "message": {
+            "text": "返回值被忽略: “getchar”。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/data-structure/map/DFS/DFS-adjacency-matrix/DFS-adjacencyMatrix.cpp"
+                },
+                "region": {
+                  "startLine": 46,
+                  "startColumn": 2,
+                  "endLine": 46,
+                  "endColumn": 9
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "main",
+                  "decoratedName": "main",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6064",
+          "message": {
+            "text": "缺少“scanf_s”的整型参数(对应于转换说明符“2”)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/data-structure/map/DFS/DFS-adjacency-matrix/DFS-adjacencyMatrix.cpp"
+                },
+                "region": {
+                  "startLine": 49,
+                  "startColumn": 3,
+                  "endLine": 49,
+                  "endColumn": 21
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "main",
+                  "decoratedName": "main",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6031",
+          "message": {
+            "text": "返回值被忽略: “getchar”。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/data-structure/map/DFS/DFS-adjacency-matrix/DFS-adjacencyMatrix.cpp"
+                },
+                "region": {
+                  "startLine": 55,
+                  "startColumn": 3,
+                  "endLine": 55,
+                  "endColumn": 10
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "main",
+                  "decoratedName": "main",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6064",
+          "message": {
+            "text": "缺少“scanf_s”的整型参数(对应于转换说明符“2”)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/data-structure/map/DFS/DFS-adjacency-matrix/DFS-adjacencyMatrix.cpp"
+                },
+                "region": {
+                  "startLine": 56,
+                  "startColumn": 3,
+                  "endLine": 56,
+                  "endColumn": 19
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "main",
+                  "decoratedName": "main",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6064",
+          "message": {
+            "text": "缺少“scanf_s”的整型参数(对应于转换说明符“2”)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/data-structure/map/DFS/DFS-adjacency-matrix/DFS-adjacencyMatrix.cpp"
+                },
+                "region": {
+                  "startLine": 57,
+                  "startColumn": 3,
+                  "endLine": 57,
+                  "endColumn": 18
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "main",
+                  "decoratedName": "main",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.41.34120.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///D:/data-structure/map/DFS/DFS-adjacency-matrix/DFS-adjacencyMatrix.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "b57b2e04f4ab70fbd3bd554c3655ce4ce804a317e2213b0df4a552ee0920937c"
+          }
+        }
+      ]
+    }
+  ]
+}

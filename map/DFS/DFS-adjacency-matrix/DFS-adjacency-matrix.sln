@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DFS-adjacency-matrix", "DFS-adjacency-matrix.vcxproj", "{630FA979-73E4-470E-B738-E24E3C97FE9A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{630FA979-73E4-470E-B738-E24E3C97FE9A}.Debug|x64.ActiveCfg = Debug|x64
+		{630FA979-73E4-470E-B738-E24E3C97FE9A}.Debug|x64.Build.0 = Debug|x64
+		{630FA979-73E4-470E-B738-E24E3C97FE9A}.Debug|x86.ActiveCfg = Debug|Win32
+		{630FA979-73E4-470E-B738-E24E3C97FE9A}.Debug|x86.Build.0 = Debug|Win32
+		{630FA979-73E4-470E-B738-E24E3C97FE9A}.Release|x64.ActiveCfg = Release|x64
+		{630FA979-73E4-470E-B738-E24E3C97FE9A}.Release|x64.Build.0 = Release|x64
+		{630FA979-73E4-470E-B738-E24E3C97FE9A}.Release|x86.ActiveCfg = Release|Win32
+		{630FA979-73E4-470E-B738-E24E3C97FE9A}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {236C8F21-2CA8-4A77-9727-C3E9B425CF56}
+	EndGlobalSection
+EndGlobal
