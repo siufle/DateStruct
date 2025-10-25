@@ -1,0 +1,27 @@
+﻿  BFS-adjacencyMatrix.c
+D:\data-structure\map\BFS\BFS-adjacency-matrix\BFS-adjacencyMatrix.c(115,11): warning C4473: “scanf_s”: 没有为格式字符串传递足够的参数
+      D:\data-structure\map\BFS\BFS-adjacency-matrix\BFS-adjacencyMatrix.c(115,11):
+      占位符和其参数预计 2 可变参数，但提供的却是 1 参数
+      D:\data-structure\map\BFS\BFS-adjacency-matrix\BFS-adjacencyMatrix.c(115,11):
+      缺失的可变参数 2 为格式字符串“%c”所需
+      D:\data-structure\map\BFS\BFS-adjacency-matrix\BFS-adjacencyMatrix.c(115,11):
+      此参数用作缓冲区大小
+  
+D:\data-structure\map\BFS\BFS-adjacency-matrix\BFS-adjacencyMatrix.c(122,11): warning C4473: “scanf_s”: 没有为格式字符串传递足够的参数
+      D:\data-structure\map\BFS\BFS-adjacency-matrix\BFS-adjacencyMatrix.c(122,11):
+      占位符和其参数预计 2 可变参数，但提供的却是 1 参数
+      D:\data-structure\map\BFS\BFS-adjacency-matrix\BFS-adjacencyMatrix.c(122,11):
+      缺失的可变参数 2 为格式字符串“%c”所需
+      D:\data-structure\map\BFS\BFS-adjacency-matrix\BFS-adjacencyMatrix.c(122,11):
+      此参数用作缓冲区大小
+  
+D:\data-structure\map\BFS\BFS-adjacency-matrix\BFS-adjacencyMatrix.c(123,11): warning C4473: “scanf_s”: 没有为格式字符串传递足够的参数
+      D:\data-structure\map\BFS\BFS-adjacency-matrix\BFS-adjacencyMatrix.c(123,11):
+      占位符和其参数预计 2 可变参数，但提供的却是 1 参数
+      D:\data-structure\map\BFS\BFS-adjacency-matrix\BFS-adjacencyMatrix.c(123,11):
+      缺失的可变参数 2 为格式字符串“%c”所需
+      D:\data-structure\map\BFS\BFS-adjacency-matrix\BFS-adjacencyMatrix.c(123,11):
+      此参数用作缓冲区大小
+  
+D:\data-structure\map\BFS\BFS-adjacency-matrix\BFS-adjacencyMatrix.c(78,1): warning C4715: “find”: 不是所有的控件路径都返回值
+  BFS-adjacency-matrix.vcxproj -> D:\data-structure\map\BFS\BFS-adjacency-matrix\x64\Debug\BFS-adjacency-matrix.exe
