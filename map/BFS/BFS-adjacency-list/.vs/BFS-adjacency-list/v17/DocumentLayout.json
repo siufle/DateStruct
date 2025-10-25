@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\data-structure\\map\\BFS\\BFS-adjacency-list\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{38E7DB4D-FAFB-423D-B5A9-C264E9B9BA70}|BFS-adjacency-list.vcxproj|D:\\data-structure\\map\\BFS\\BFS-adjacency-list\\BFS-adjacencyList.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{38E7DB4D-FAFB-423D-B5A9-C264E9B9BA70}|BFS-adjacency-list.vcxproj|solutionrelative:BFS-adjacencyList.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BFS-adjacencyList.c",
+              "DocumentMoniker": "D:\\data-structure\\map\\BFS\\BFS-adjacency-list\\BFS-adjacencyList.c",
+              "RelativeDocumentMoniker": "BFS-adjacencyList.c",
+              "ToolTip": "D:\\data-structure\\map\\BFS\\BFS-adjacency-list\\BFS-adjacencyList.c",
+              "RelativeToolTip": "BFS-adjacencyList.c",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAAIAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-10-25T07:42:54.938Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
