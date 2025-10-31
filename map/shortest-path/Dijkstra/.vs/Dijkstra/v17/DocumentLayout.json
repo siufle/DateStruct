@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\data-structure\\map\\shortest-path\\Dijkstra\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0A9616C2-3A0F-42C8-9FBB-48106F453975}|Dijkstra.vcxproj|D:\\data-structure\\map\\shortest-path\\Dijkstra\\Dijkstra.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0A9616C2-3A0F-42C8-9FBB-48106F453975}|Dijkstra.vcxproj|solutionrelative:Dijkstra.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Dijkstra.c",
+              "DocumentMoniker": "D:\\data-structure\\map\\shortest-path\\Dijkstra\\Dijkstra.c",
+              "RelativeDocumentMoniker": "Dijkstra.c",
+              "ToolTip": "D:\\data-structure\\map\\shortest-path\\Dijkstra\\Dijkstra.c",
+              "RelativeToolTip": "Dijkstra.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-10-31T14:13:37.516Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
