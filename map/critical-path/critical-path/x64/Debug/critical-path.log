@@ -1,0 +1,26 @@
+﻿  criticalPath.c
+D:\data-structure\map\critical-path\criticalPath.c(225,11): warning C4473: “scanf_s”: 没有为格式字符串传递足够的参数
+      D:\data-structure\map\critical-path\criticalPath.c(225,11):
+      占位符和其参数预计 2 可变参数，但提供的却是 1 参数
+      D:\data-structure\map\critical-path\criticalPath.c(225,11):
+      缺失的可变参数 2 为格式字符串“%c”所需
+      D:\data-structure\map\critical-path\criticalPath.c(225,11):
+      此参数用作缓冲区大小
+  
+D:\data-structure\map\critical-path\criticalPath.c(235,11): warning C4473: “scanf_s”: 没有为格式字符串传递足够的参数
+      D:\data-structure\map\critical-path\criticalPath.c(235,11):
+      占位符和其参数预计 2 可变参数，但提供的却是 1 参数
+      D:\data-structure\map\critical-path\criticalPath.c(235,11):
+      缺失的可变参数 2 为格式字符串“%c”所需
+      D:\data-structure\map\critical-path\criticalPath.c(235,11):
+      此参数用作缓冲区大小
+  
+D:\data-structure\map\critical-path\criticalPath.c(236,11): warning C4473: “scanf_s”: 没有为格式字符串传递足够的参数
+      D:\data-structure\map\critical-path\criticalPath.c(236,11):
+      占位符和其参数预计 2 可变参数，但提供的却是 1 参数
+      D:\data-structure\map\critical-path\criticalPath.c(236,11):
+      缺失的可变参数 2 为格式字符串“%c”所需
+      D:\data-structure\map\critical-path\criticalPath.c(236,11):
+      此参数用作缓冲区大小
+  
+  critical-path.vcxproj -> D:\data-structure\map\critical-path\x64\Debug\critical-path.exe

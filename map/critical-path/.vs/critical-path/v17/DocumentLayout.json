@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\data-structure\\map\\critical-path\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6E3ECBD9-2DC3-40B3-BD89-EA5AC2BBE134}|critical-path.vcxproj|D:\\data-structure\\map\\critical-path\\criticalPath.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6E3ECBD9-2DC3-40B3-BD89-EA5AC2BBE134}|critical-path.vcxproj|solutionrelative:criticalPath.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "criticalPath.c",
+              "DocumentMoniker": "D:\\data-structure\\map\\critical-path\\criticalPath.c",
+              "RelativeDocumentMoniker": "criticalPath.c",
+              "ToolTip": "D:\\data-structure\\map\\critical-path\\criticalPath.c",
+              "RelativeToolTip": "criticalPath.c",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAowA8BAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-11-08T07:58:12.697Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
