@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\data-structure\\sort\\insert-sort\\shell-sort\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{537F170D-690F-41EA-8A36-3C32F42CC42A}|shell-sort.vcxproj|D:\\data-structure\\sort\\insert-sort\\shell-sort\\shellSort.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{537F170D-690F-41EA-8A36-3C32F42CC42A}|shell-sort.vcxproj|solutionrelative:shellSort.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "shellSort.c",
+              "DocumentMoniker": "D:\\data-structure\\sort\\insert-sort\\shell-sort\\shellSort.c",
+              "RelativeDocumentMoniker": "shellSort.c",
+              "ToolTip": "D:\\data-structure\\sort\\insert-sort\\shell-sort\\shellSort.c",
+              "RelativeToolTip": "shellSort.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-11-10T15:26:46.985Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
