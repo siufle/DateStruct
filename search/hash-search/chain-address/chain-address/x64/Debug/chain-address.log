@@ -1,0 +1,4 @@
+﻿  chainAddress.c
+D:\data-structure\search\hash-search\chain-address\chainAddress.c(58,10): warning C4133: “=”: 从“HNode *”到“Node *”的类型不兼容
+D:\data-structure\search\hash-search\chain-address\chainAddress.c(70,5): warning C4133: “=”: 从“Node *”到“HNode *”的类型不兼容
+  chain-address.vcxproj -> D:\data-structure\search\hash-search\chain-address\x64\Debug\chain-address.exe
