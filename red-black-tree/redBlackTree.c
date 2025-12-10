@@ -203,6 +203,191 @@ RBTree Insert(RBTree root, int k)
 	return root;
 }
 
+//-----------------------------删除---------------------------------------
+
+//找到节点所在位置
+RBTNode* Find(RBTree root, int k)
+{
+	if (root == NULL) return NULL;
+	if (root->data == k) return root;
+	else if (root->data > k) return Find(root->left, k);
+	else return Find(root->right, k);
+}
+
+//删除后调整 删除前p是y的父亲 删除后p是x的父亲
+RBTree De_FixUp(RBTree root, RBTNode* x, RBTNode* p)
+{
+	//x可能是根节点 则直接将x的颜色改为黑色即可
+	//y黑 x红：一定破坏"黑路同" 将x的颜色改为黑色即可 可以和x为根节点的情况一起处理
+	//讨论x为黑色的情况即可
+	RBTNode* w = NULL;//删除前y的兄弟x的叔叔 删除后x的兄弟
+	//由于w没有红色孩子的情况需要循环向上调整 因此要套在循环中 直到x为根节点或x的父亲为黑色结束
+	while (x != root && (x == NULL || (x != NULL && x->color == BLACK)))
+	{//x不是根节点 p一定存在
+		if (x == p->right)
+		{//x是p的右孩子
+			w = p->left;
+			//w是红色的情况几步操作后可以转化为w是黑色的情况
+			if (w != NULL && w->color == RED)
+			{
+				//w变黑 p变红
+				w->color = BLACK;
+				p->color = RED;
+				//对p右旋
+				root = RightRotate(root, p);
+				w = p->left;
+			}
+			//w两个孩子都是黑
+			if ((w->left == NULL ||  w->left->color == BLACK) &&
+				(w->right == NULL ||  w->right->color == BLACK))
+			{
+				//w褪去黑色变红 将褪去的黑色给父亲p
+				w->color = RED;
+				//p成为了新的要调整的节点x
+				x = p;
+				p = x->pa;
+			}
+			else
+			{//至少有一个孩子是红色
+				RBTNode* red = NULL;//指向红色的孩子
+				if (w->left == NULL || (w->left != NULL && w->left->color == BLACK))
+				{//左孩子不是红色且右孩子是红色 此时相当于LR
+					red = w->right;
+					//对w左旋
+					root = LeftRotate(root, w);
+					//将red变黑w变红
+					red->color = BLACK;
+					w->color = RED;
+					//交换red和w的指针
+					RBTNode* t = red;
+					red = w;
+					w = t;
+				}
+				//此时相当于LL
+				red = w->left;
+				//将w变成p的颜色
+				w->color = p->color;
+				//对p右旋
+				root = RightRotate(root, p);
+				//将red和p变黑
+				red->color = BLACK;
+				p->color = BLACK;
+				break;
+			}
+		}
+		else
+		{//x是p的左孩子 w是p的右孩子
+			w = p->right;
+			//w是红色的情况几步操作后可以转化为w是黑色的情况
+			if (w != NULL && w->color == RED)
+			{
+				//w变黑 p变红
+				w->color = BLACK;
+				p->color = RED;
+				//对p左旋
+				root = LeftRotate(root, p);
+				w = p->right;
+			}
+			//w两个孩子都是黑
+			if ((w->left == NULL || w->left->color == BLACK) &&
+				(w->right == NULL || w->right->color == BLACK))
+			{
+				//w褪去黑色变红 将褪去的黑色给父亲p
+				w->color = RED;
+				//p成为了新的要调整的节点x
+				x = p;
+				p = x->pa;
+			}
+			else
+			{//至少有一个孩子是红色
+				RBTNode* red = NULL;//指向红色的孩子
+				if (w->right == NULL || (w->right != NULL && w->right->color == BLACK))
+				{//右孩子不是红色且左孩子是红色 此时相当于RL
+					red = w->right;
+					//对w右旋
+					root = RightRotate(root, w);
+					//将red变黑w变红
+					red->color = BLACK;
+					w->color = RED;
+					//交换red和w的指针
+					RBTNode* t = red;
+					red = w;
+					w = t;
+				}
+				//此时相当于LL
+				red = w->right;
+				//将w变成p的颜色
+				w->color = p->color;
+				//对p左旋
+				root = LeftRotate(root, p);
+				//将red和p变黑
+				red->color = BLACK;
+				p->color = BLACK;
+				break;
+			}
+		}
+	}
+	if (x != NULL) x->color = BLACK;
+	return root;
+}
+
+//删除
+RBTree Delete(RBTree root, int k)
+{
+	if (root == NULL)
+	{
+		printf("红黑树为空，无法删除\n");
+		return root;
+	}
+	//先找到删除节点所在位置
+	RBTNode* y = Find(root, k);
+	if (y == NULL) 
+	{
+		printf("未找到要删除的节点\n");
+		return root;
+	}
+	//判断y的度为几
+	if (y->left != NULL && y->right != NULL)
+	{//度为2 先找后继
+		RBTNode* next = y->right;
+		while (next->left != NULL) next = next->left;
+		//将后继与要删除节点交换数据
+		int temp = next->data;
+		next->data = y->data;
+		y->data = temp;
+		y = next;
+	}
+	RBTNode* x = NULL;//y的孩子
+	if (y->left != NULL) x = y->left;
+	else x = y->right;
+	//删除y 并由x继承y的所有关系
+	RBTNode* p = y->pa;
+	if(x != NULL) x->pa = p;
+	if (p == NULL)
+	{//y为根节点
+		root = x;
+	}
+	else if (y == p->left)
+	{//y不为根节点且y是其父亲节点的左孩子
+		p->left = x;
+	}
+	else
+	{//y不为根节点且y是其父亲节点的右孩子
+		p->right = x;
+	}
+	int yc = y->color;//提前记录y的颜色 y为黑色才会破坏红黑规则
+	free(y);
+	y = NULL;
+	if (root == NULL) return NULL;
+	if (yc == BLACK)
+	{
+		root = De_FixUp(root, x, p);
+	}
+	return root;
+}
+
+//-----------------------------删除---------------------------------------
+
 //中序遍历
 void InOrder(RBTree root)
 {
@@ -234,6 +419,18 @@ int main()
 		root = Insert(root, a[i]);//插入数据
 	}
 	InOrder(root);
+	int k;
+	while (1)
+	{
+		printf("-------------------------\n");
+		scanf_s("%d", &k);
+		if (k == -1)
+		{
+			break;
+		}
+		root = Delete(root, k);
+		InOrder(root);
+	}
 	return 0;
 }
 
