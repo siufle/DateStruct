@@ -1,0 +1,18 @@
+﻿  BTree.cpp
+D:\data-structure\BTree\BTree.cpp(202,11): warning C4473: “scanf_s”: 没有为格式字符串传递足够的参数
+      D:\data-structure\BTree\BTree.cpp(202,11):
+      占位符和其参数预计 2 可变参数，但提供的却是 1 参数
+      D:\data-structure\BTree\BTree.cpp(202,11):
+      缺失的可变参数 2 为格式字符串“%c”所需
+      D:\data-structure\BTree\BTree.cpp(202,11):
+      此参数用作缓冲区大小
+  
+D:\data-structure\BTree\BTree.cpp(401,11): warning C4473: “scanf_s”: 没有为格式字符串传递足够的参数
+      D:\data-structure\BTree\BTree.cpp(401,11):
+      占位符和其参数预计 2 可变参数，但提供的却是 1 参数
+      D:\data-structure\BTree\BTree.cpp(401,11):
+      缺失的可变参数 2 为格式字符串“%c”所需
+      D:\data-structure\BTree\BTree.cpp(401,11):
+      此参数用作缓冲区大小
+  
+  BTree.vcxproj -> D:\data-structure\BTree\x64\Debug\BTree.exe
