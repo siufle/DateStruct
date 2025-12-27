@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\data-structure\\map\\shortest-path\\Floyd\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{91CE1728-BD0E-4640-8BE4-48A88083E7B1}|Floyd.vcxproj|D:\\data-structure\\map\\shortest-path\\Floyd\\floyd.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{91CE1728-BD0E-4640-8BE4-48A88083E7B1}|Floyd.vcxproj|solutionrelative:floyd.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "floyd.c",
+              "DocumentMoniker": "D:\\data-structure\\map\\shortest-path\\Floyd\\floyd.c",
+              "RelativeDocumentMoniker": "floyd.c",
+              "ToolTip": "D:\\data-structure\\map\\shortest-path\\Floyd\\floyd.c",
+              "RelativeToolTip": "floyd.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-12-27T08:45:54.152Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
